@@ -81,7 +81,7 @@ steps:
     - develop
     - feature/*
     - release
-    - master
+   
     event:
     - push
 
