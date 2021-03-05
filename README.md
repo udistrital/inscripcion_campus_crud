@@ -29,5 +29,8 @@ Definir los valores de las siguientes variables de entorno:
 ## Ejemplo
 INSCRIPCION_CAMPUS_CRUD_HTTP_PORT=8887 INSCRIPCION_CAMPUS_CRUD__PGUSER=user INSCRIPCION_CAMPUS_CRUD__PGPASS=password INSCRIPCION_CAMPUS_CRUD__PGURLS=localhost INSCRIPCION_CAMPUS_CRUD__PGDB=bd INSCRIPCION_CAMPUS_CRUD__SCHEMA=schema_new bee run
 
+## Pruebas
+En Proceso
+
 ## MODELO
 ![image](https://github.com/udistrital/inscripcion_campus_crud/blob/planestic/modelo_inscripcion_crud.png).
