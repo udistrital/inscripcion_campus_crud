@@ -19,6 +19,10 @@ type InscripcionPosgrado struct {
 	FechaModificacion string       `orm:"column(fecha_modificacion);null"`
 }
 
+func (t *InscripcionPosgrado) TableName() string {
+	return "inscripcion_posgrado"
+}
+
 func init() {
 	orm.RegisterModel(new(InscripcionPosgrado))
 }
